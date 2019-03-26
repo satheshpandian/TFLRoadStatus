@@ -1,0 +1,6 @@
+D:\Applications\TFLRoadStatus\TFLRoadStatus.Models\bin\Debug\TFLRoadStatus.Models.dll
+D:\Applications\TFLRoadStatus\TFLRoadStatus.Models\bin\Debug\TFLRoadStatus.Models.pdb
+D:\Applications\TFLRoadStatus\TFLRoadStatus.Models\obj\Debug\TFLRoadStatus.Models.csproj.CoreCompileInputs.cache
+D:\Applications\TFLRoadStatus\TFLRoadStatus.Models\obj\Debug\TFLRoadStatus.Models.dll
+D:\Applications\TFLRoadStatus\TFLRoadStatus.Models\obj\Debug\TFLRoadStatus.Models.pdb
+D:\Applications\TFLRoadStatus\TFLRoadStatus.Models\obj\Debug\TFLRoadStatus.Models.csprojAssemblyReference.cache

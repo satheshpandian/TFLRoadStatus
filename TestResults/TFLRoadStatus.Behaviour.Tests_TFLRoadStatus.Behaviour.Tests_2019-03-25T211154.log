@@ -1,0 +1,153 @@
+﻿2019-03-25T21:11:54.1895303+00:00;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2019-03-25T21:11:54.1985239+00:00;VSTestExecutionThread;Info;TestAdapter Location: D:\Applications\TFLRoadStatus\packages\SpecRun.Runner.1.8.5\tools\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-03-25T21:11:54.6582400+00:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-03-25T21:11:54.6592398+00:00;VSTestExecutionThread;Info;SpecRun: running tests in D:\Applications\TFLRoadStatus\TFLRoadStatus.Behaviour.Tests\bin\Debug\TFLRoadStatus.Behaviour.Tests.dll
+2019-03-25T21:11:54.6592398+00:00;VSTestExecutionThread;Info;Profile: TFLRoadStatus.Behaviour.Tests
+2019-03-25T21:11:59.8160934+00:00;Thread#14;Info;starting test run
+2019-03-25T21:11:59.8430777+00:00;Thread#14;Info;Discovering target: Default
+2019-03-25T21:11:59.8440766+00:00;Thread#14;Info;Discovering tests from assembly: D:\Applications\TFLRoadStatus\TFLRoadStatus.Behaviour.Tests\bin\Debug\TFLRoadStatus.Behaviour.Tests.dll
+Appdomain Disposed
+Test Suite Dump
+#0: TFLRoadStatus.Behaviour.Tests/TFLRoadStatus.Behaviour.Tests - 
+#1: Default - 
+#2: TFLRoadStatus.Behaviour.Tests - 
+#3: RoadNotFoundTest And ExitCode Test - 
+#4: HttpErrorCode 404 - TestAssembly:TFLRoadStatus.Behaviour.Tests/Feature:RoadNotFoundTest+And+ExitCode+Test/Scenario:HttpErrorCode+404
+#5: Non Zero Exit code - TestAssembly:TFLRoadStatus.Behaviour.Tests/Feature:RoadNotFoundTest+And+ExitCode+Test/Scenario:Non+Zero+Exit+code
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for TFLRoadStatus.Behaviour.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given an invalid road ID 'A223' is passed
+Thread#0:T:A223 is not a valid road
+Thread#0:T:done: RoadNotFoundTestAndExitCodeTestSteps.GivenAnInvalidRoadIDIsPassed("A223") (23.0s)
+Thread#0:B:When the client is run
+Thread#0:T:error: Value cannot be null.
+Thread#0:B:Then the application should return an informative error
+Thread#0:T:skipped because of previous errors
+Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #4/0 is finished on thread #0 as Failed within 51.9937689 seconds
+Thread#0: Test #4/1 is started on thread #0
+Thread#0:B:Given an invalid road ID 'A223' is passed
+Thread#0:T:A223 is not a valid road
+Thread#0:T:done: RoadNotFoundTestAndExitCodeTestSteps.GivenAnInvalidRoadIDIsPassed("A223") (34.5s)
+Thread#0:B:When the client is run
+Thread#0:T:error: Value cannot be null.
+Thread#0:B:Then the application should return an informative error
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #4/1 is finished on thread #0 as Failed within 34.7560456 seconds
+Thread#0: Test #4/2 is started on thread #0
+Thread#0:B:Given an invalid road ID 'A223' is passed
+Thread#0:T:A223 is not a valid road
+Thread#0:T:done: RoadNotFoundTestAndExitCodeTestSteps.GivenAnInvalidRoadIDIsPassed("A223") (6.3s)
+Thread#0:B:When the client is run
+Thread#0:T:error: Value cannot be null.
+Thread#0:B:Then the application should return an informative error
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #5 from normal test queue 
+Thread#0:Scheduler: considering testitem #5 for thread 0
+Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #5 for thread 0
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/2 is finished on thread #0 as Failed within 6.5244045 seconds
+Thread#0: Test #5/0 is started on thread #0
+Thread#0:B:Given an invalid road ID 'A223' is passed
+Thread#0:T:A223 is not a valid road
+Thread#0:T:done: RoadNotFoundTestAndExitCodeTestSteps.GivenAnInvalidRoadIDIsPassed("A223") (4.8s)
+Thread#0:B:When the client is run
+Thread#0:T:error: Value cannot be null.
+Thread#0:B:Then the application should exit with a non-zero system Error code
+Thread#0:T:skipped because of previous errors
+Thread#0:TestItem#5:Scheduler: reschedule tests for testitem #5
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+Thread#0:Scheduler: considering testitem #5 for thread 0
+Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #5 for thread 0
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #5/0 is finished on thread #0 as Failed within 5.0048797 seconds
+Thread#0: Test #5/1 is started on thread #0
+Thread#0:B:Given an invalid road ID 'A223' is passed
+Thread#0:T:A223 is not a valid road
+Thread#0:T:done: RoadNotFoundTestAndExitCodeTestSteps.GivenAnInvalidRoadIDIsPassed("A223") (7.2s)
+Thread#0:B:When the client is run
+Thread#0:T:error: Value cannot be null.
+Thread#0:B:Then the application should exit with a non-zero system Error code
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+Thread#0:Scheduler: considering testitem #5 for thread 0
+Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #5 for thread 0
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #5/1 is finished on thread #0 as Failed within 7.4351202 seconds
+Thread#0: Test #5/2 is started on thread #0
+Thread#0:B:Given an invalid road ID 'A223' is passed
+Thread#0:T:A223 is not a valid road
+Thread#0:T:done: RoadNotFoundTestAndExitCodeTestSteps.GivenAnInvalidRoadIDIsPassed("A223") (3.1s)
+Thread#0:B:When the client is run
+Thread#0:T:error: Value cannot be null.
+Thread#0:B:Then the application should exit with a non-zero system Error code
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #5/2 is finished on thread #0 as Failed within 3.2522159 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2019-03-25T21:13:50.5654636+00:00;Thread#14;Info;test run finished
+2019-03-25T21:13:50.5664639+00:00;Thread#14;Info;publishing test results
+2019-03-25T21:13:50.6134336+00:00;Thread#14;Info;test results published
+2019-03-25T21:13:50.6134336+00:00;Thread#14;Info;generating reports
+2019-03-25T21:13:50.6284248+00:00;Thread#14;Info;creating 1 report(s)
+2019-03-25T21:13:50.6284248+00:00;Thread#14;Info;generate Report ReportTemplate.cshtml
+2019-03-25T21:13:57.2455129+00:00;Thread#14;Info;reports generated
+Total: 2 (test executions: 6)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 2
+2019-03-25T21:13:57.2565074+00:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-03-25T21:13:57.2565074+00:00;VSTestExecutionThread;Info;adding Test Execution Report 'D:\Applications\TFLRoadStatus\TestResults\TFLRoadStatus.Behaviour.Tests_TFLRoadStatus.Behaviour.Tests_2019-03-25T211154.html'
+2019-03-25T21:13:57.2814916+00:00;VSTestExecutionThread;Info;Log file: file:///D:\Applications\TFLRoadStatus\TestResults\TFLRoadStatus.Behaviour.Tests_TFLRoadStatus.Behaviour.Tests_2019-03-25T211154.log

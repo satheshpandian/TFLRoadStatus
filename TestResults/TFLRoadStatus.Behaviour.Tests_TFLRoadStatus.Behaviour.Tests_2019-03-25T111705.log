@@ -1,0 +1,65 @@
+﻿2019-03-25T11:17:04.5964475+00:00;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2019-03-25T11:17:04.6064431+00:00;VSTestExecutionThread;Info;TestAdapter Location: D:\Applications\TFLRoadStatus\packages\SpecRun.Runner.1.8.5\tools\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-03-25T11:17:05.0221859+00:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-03-25T11:17:05.0221859+00:00;VSTestExecutionThread;Info;SpecRun: running tests in D:\Applications\TFLRoadStatus\TFLRoadStatus.Behaviour.Tests\bin\Debug\TFLRoadStatus.Behaviour.Tests.dll
+2019-03-25T11:17:05.0221859+00:00;VSTestExecutionThread;Info;Profile: TFLRoadStatus.Behaviour.Tests
+2019-03-25T11:17:17.1641219+00:00;Thread#14;Info;starting test run
+2019-03-25T11:17:17.1891082+00:00;Thread#14;Info;Discovering target: Default
+2019-03-25T11:17:17.1891082+00:00;Thread#14;Info;Discovering tests from assembly: D:\Applications\TFLRoadStatus\TFLRoadStatus.Behaviour.Tests\bin\Debug\TFLRoadStatus.Behaviour.Tests.dll
+Appdomain Disposed
+Test Suite Dump
+#0: TFLRoadStatus.Behaviour.Tests/TFLRoadStatus.Behaviour.Tests - 
+#1: Default - 
+#2: TFLRoadStatus.Behaviour.Tests - 
+#3: RoadStatusTest - 
+#4: Display Name should be displayed - TestAssembly:TFLRoadStatus.Behaviour.Tests/Feature:RoadStatusTest/Scenario:Display+Name+should+be+displayed
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for TFLRoadStatus.Behaviour.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given a valid road ID 'A2' is specified
+Thread#0:T:done: RoadStatusTestSteps.GivenAValidRoadIDIsSpecified("A2") (0.6s)
+Thread#0:B:When the client is run
+Thread#0:T:The status of the A2 is as follows
+Thread#0:T:	 Road Status  is Good
+Thread#0:T:	 Road Status Description is  No Exceptional Delays
+Thread#0:T:The status of the A2 is as follows
+Thread#0:T:	 Road Status  is Good
+Thread#0:T:	 Road Status Description is  No Exceptional Delays
+Thread#0:T:done: RoadStatusTestSteps.WhenTheClientIsRun() (330.7s)
+Thread#0:B:Then the road 'displayName' should be displayed
+Thread#0:T:done: RoadStatusTestSteps.ThenTheRoadShouldBeDisplayed("displayName") (36.4s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 368.3929396 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2019-03-25T11:23:27.0440056+00:00;Thread#14;Info;test run finished
+2019-03-25T11:23:27.0450071+00:00;Thread#14;Info;publishing test results
+2019-03-25T11:23:27.1256052+00:00;Thread#14;Info;test results published
+2019-03-25T11:23:27.1256052+00:00;Thread#14;Info;generating reports
+2019-03-25T11:23:27.1355995+00:00;Thread#14;Info;creating 1 report(s)
+2019-03-25T11:23:27.1355995+00:00;Thread#14;Info;generate Report ReportTemplate.cshtml
+2019-03-25T11:23:33.8003282+00:00;Thread#14;Info;reports generated
+Total: 1
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0
+2019-03-25T11:23:33.8562929+00:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-03-25T11:23:33.8562929+00:00;VSTestExecutionThread;Info;adding Test Execution Report 'D:\Applications\TFLRoadStatus\TestResults\TFLRoadStatus.Behaviour.Tests_TFLRoadStatus.Behaviour.Tests_2019-03-25T111705.html'
+2019-03-25T11:23:34.2660407+00:00;VSTestExecutionThread;Info;Log file: file:///D:\Applications\TFLRoadStatus\TestResults\TFLRoadStatus.Behaviour.Tests_TFLRoadStatus.Behaviour.Tests_2019-03-25T111705.log

@@ -1,0 +1,150 @@
+﻿2019-03-25T20:00:20.8776879+00:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-03-25T20:00:20.8786873+00:00;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2019-03-25T20:00:20.8796858+00:00;VSTestExecutionThread;Info;TestAdapter Location: D:\Applications\TFLRoadStatus\packages\SpecRun.Runner.1.8.5\tools\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-03-25T20:00:21.1595133+00:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-03-25T20:00:21.1605131+00:00;VSTestExecutionThread;Info;SpecRun: running tests in D:\Applications\TFLRoadStatus\TFLRoadStatus.Behaviour.Tests\bin\Debug\TFLRoadStatus.Behaviour.Tests.dll
+2019-03-25T20:00:21.1605131+00:00;VSTestExecutionThread;Info;Profile: TFLRoadStatus.Behaviour.Tests
+2019-03-25T20:00:26.3503135+00:00;Thread#21;Info;starting test run
+2019-03-25T20:00:26.3653038+00:00;Thread#21;Info;Discovering target: Default
+2019-03-25T20:00:26.3653038+00:00;Thread#21;Info;Discovering tests from assembly: D:\Applications\TFLRoadStatus\TFLRoadStatus.Behaviour.Tests\bin\Debug\TFLRoadStatus.Behaviour.Tests.dll
+Appdomain Disposed
+Test Suite Dump
+#0: TFLRoadStatus.Behaviour.Tests/TFLRoadStatus.Behaviour.Tests - 
+#1: Default - 
+#2: TFLRoadStatus.Behaviour.Tests - 
+#3: RoadNotFoundTest And ExitCode Test - 
+#6: RoadStatusTest - 
+#4: HttpErrorCode 404 - TestAssembly:TFLRoadStatus.Behaviour.Tests/Feature:RoadNotFoundTest+And+ExitCode+Test/Scenario:HttpErrorCode+404
+#5: Non Zero Exit code - TestAssembly:TFLRoadStatus.Behaviour.Tests/Feature:RoadNotFoundTest+And+ExitCode+Test/Scenario:Non+Zero+Exit+code
+#7: Display Name should be displayed - TestAssembly:TFLRoadStatus.Behaviour.Tests/Feature:RoadStatusTest/Scenario:Display+Name+should+be+displayed
+#8: Display Status Severity - TestAssembly:TFLRoadStatus.Behaviour.Tests/Feature:RoadStatusTest/Scenario:Display+Status+Severity
+#9: Display Status Severity Description - TestAssembly:TFLRoadStatus.Behaviour.Tests/Feature:RoadStatusTest/Scenario:Display+Status+Severity+Description
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for TFLRoadStatus.Behaviour.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given an invalid road ID 'A223' is passed
+Thread#0:T:A223 is not a valid road
+Thread#0:T:done: RoadNotFoundTestAndExitCodeTestSteps.GivenAnInvalidRoadIDIsPassed("A223") (1.0s)
+Thread#0:B:When the client is run
+Thread#0:T:The status of the A2 is as follows
+Thread#0:T:	statusSeverity is Good
+Thread#0:T:	statusSeverityDescription is No Exceptional Delays
+Thread#0:T:done: RoadStatusTestSteps.WhenTheClientIsRun() (0.0s)
+Thread#0:B:Then the application should return an informative error
+Thread#0:T:done: RoadNotFoundTestAndExitCodeTestSteps.ThenTheApplicationShouldReturnAnInformativeError() (0.1s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #5 from normal test queue 
+Thread#0:Scheduler: considering testitem #5 for thread 0
+Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #5 for thread 0
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 2.4135122 seconds
+Thread#0: Test #5/0 is started on thread #0
+Thread#0:B:Given an invalid road ID 'A223' is passed
+Thread#0:T:A223 is not a valid road
+Thread#0:T:done: RoadNotFoundTestAndExitCodeTestSteps.GivenAnInvalidRoadIDIsPassed("A223") (0.0s)
+Thread#0:B:When the client is run
+Thread#0:T:The status of the A2 is as follows
+Thread#0:T:	statusSeverity is Good
+Thread#0:T:	statusSeverityDescription is No Exceptional Delays
+Thread#0:T:done: RoadStatusTestSteps.WhenTheClientIsRun() (0.0s)
+Thread#0:B:Then the application should exit with a non-zero system Error code
+Thread#0:T:done: RoadNotFoundTestAndExitCodeTestSteps.ThenTheApplicationShouldExitWithANon_ZeroSystemErrorCode() (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #7 from normal test queue 
+Thread#0:Scheduler: considering testitem #7 for thread 0
+Thread#0:TestItem#7:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#7:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#7:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #7 for thread 0
+Thread#0:Scheduler: Test #7 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #5/0 is finished on thread #0 as Succeeded within 0.08095 seconds
+Thread#0: Test #7/0 is started on thread #0
+Thread#0:B:Given a valid road ID 'A2' is specified
+Thread#0:T:done: RoadStatusTestSteps.GivenAValidRoadIDIsSpecified("A2") (0.0s)
+Thread#0:B:When the client is run
+Thread#0:T:The status of the A2 is as follows
+Thread#0:T:	statusSeverity is Good
+Thread#0:T:	statusSeverityDescription is No Exceptional Delays
+Thread#0:T:done: RoadStatusTestSteps.WhenTheClientIsRun() (0.0s)
+Thread#0:B:Then the road 'displayName' should be displayed
+Thread#0:T:done: RoadStatusTestSteps.ThenTheRoadShouldBeDisplayed("displayName") (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #8 from normal test queue 
+Thread#0:Scheduler: considering testitem #8 for thread 0
+Thread#0:TestItem#8:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#8:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#8:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #8 for thread 0
+Thread#0:Scheduler: Test #8 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #7/0 is finished on thread #0 as Succeeded within 0.0859453 seconds
+Thread#0: Test #8/0 is started on thread #0
+Thread#0:B:Given a valid road ID 'A2' is specified
+Thread#0:T:done: RoadStatusTestSteps.GivenAValidRoadIDIsSpecified("A2") (0.0s)
+Thread#0:B:When the client is run
+Thread#0:T:The status of the A2 is as follows
+Thread#0:T:	statusSeverity is Good
+Thread#0:T:	statusSeverityDescription is No Exceptional Delays
+Thread#0:T:done: RoadStatusTestSteps.WhenTheClientIsRun() (0.0s)
+Thread#0:B:Then the road 'statusSeverity' should be displayed as 'Road Status'
+Thread#0:T:done: RoadStatusTestSteps.ThenTheRoadShouldBeDisplayedAs("statusSeverity", "Road Status") (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #9 from normal test queue 
+Thread#0:Scheduler: considering testitem #9 for thread 0
+Thread#0:TestItem#9:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#9:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#9:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #9 for thread 0
+Thread#0:Scheduler: Test #9 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #8/0 is finished on thread #0 as Succeeded within 0.0739531 seconds
+Thread#0: Test #9/0 is started on thread #0
+Thread#0:B:Given a valid road ID 'A2' is specified
+Thread#0:T:done: RoadStatusTestSteps.GivenAValidRoadIDIsSpecified("A2") (0.0s)
+Thread#0:B:When the client is run
+Thread#0:T:The status of the A2 is as follows
+Thread#0:T:	statusSeverity is Good
+Thread#0:T:	statusSeverityDescription is No Exceptional Delays
+Thread#0:T:done: RoadStatusTestSteps.WhenTheClientIsRun() (0.0s)
+Thread#0:B:Then the road 'statusSeverityDescription' should be displayed as 'Road Status Description'
+Thread#0:T:done: RoadStatusTestSteps.ThenTheRoadShouldBeDisplayedAs("statusSeverityDes...", "Road Status Descr...") (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #9/0 is finished on thread #0 as Succeeded within 0.0659598 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2019-03-25T20:00:29.6982483+00:00;Thread#21;Info;test run finished
+2019-03-25T20:00:29.6992481+00:00;Thread#21;Info;publishing test results
+2019-03-25T20:00:29.7152386+00:00;Thread#21;Info;test results published
+2019-03-25T20:00:29.7152386+00:00;Thread#21;Info;generating reports
+2019-03-25T20:00:29.7292296+00:00;Thread#21;Info;creating 1 report(s)
+2019-03-25T20:00:29.7322282+00:00;Thread#21;Info;generate Report ReportTemplate.cshtml
+2019-03-25T20:00:35.3997340+00:00;Thread#21;Info;reports generated
+Total: 5
+Succeeded: 5
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0
+2019-03-25T20:00:35.4047301+00:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-03-25T20:00:35.4047301+00:00;VSTestExecutionThread;Info;adding Test Execution Report 'D:\Applications\TFLRoadStatus\TestResults\TFLRoadStatus.Behaviour.Tests_TFLRoadStatus.Behaviour.Tests_2019-03-25T200021.html'
+2019-03-25T20:00:35.4297151+00:00;VSTestExecutionThread;Info;Log file: file:///D:\Applications\TFLRoadStatus\TestResults\TFLRoadStatus.Behaviour.Tests_TFLRoadStatus.Behaviour.Tests_2019-03-25T200021.log

@@ -1,0 +1,60 @@
+﻿2019-03-25T14:49:28.8931097+00:00;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2019-03-25T14:49:28.9051028+00:00;VSTestExecutionThread;Info;TestAdapter Location: D:\Applications\TFLRoadStatus\packages\SpecRun.Runner.1.8.5\tools\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-03-25T14:49:29.4447717+00:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-03-25T14:49:29.4447717+00:00;VSTestExecutionThread;Info;SpecRun: running tests in D:\Applications\TFLRoadStatus\TFLRoadStatus.Behaviour.Tests\bin\Debug\TFLRoadStatus.Behaviour.Tests.dll
+2019-03-25T14:49:29.4447717+00:00;VSTestExecutionThread;Info;Profile: TFLRoadStatus.Behaviour.Tests
+2019-03-25T14:49:39.6384995+00:00;Thread#14;Info;starting test run
+2019-03-25T14:49:39.6928571+00:00;Thread#14;Info;Discovering target: Default
+2019-03-25T14:49:39.6938539+00:00;Thread#14;Info;Discovering tests from assembly: D:\Applications\TFLRoadStatus\TFLRoadStatus.Behaviour.Tests\bin\Debug\TFLRoadStatus.Behaviour.Tests.dll
+Appdomain Disposed
+Test Suite Dump
+#0: TFLRoadStatus.Behaviour.Tests/TFLRoadStatus.Behaviour.Tests - 
+#1: Default - 
+#2: TFLRoadStatus.Behaviour.Tests - 
+#3: RoadStatusTest - 
+#6: Display Status Severity Description - TestAssembly:TFLRoadStatus.Behaviour.Tests/Feature:RoadStatusTest/Scenario:Display+Status+Severity+Description
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #6 from normal test queue 
+Thread#0:Scheduler: considering testitem #6 for thread 0
+Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #6 for thread 0
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for TFLRoadStatus.Behaviour.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #6/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given a valid road ID 'A2' is specified
+Thread#0:T:done: RoadStatusTestSteps.GivenAValidRoadIDIsSpecified("A2") (0.8s)
+Thread#0:B:When the client is run
+Thread#0:T:done: RoadStatusTestSteps.WhenTheClientIsRun() (28.0s)
+Thread#0:B:Then the road 'statusSeverity' should be displayed as 'Road Status Description'
+Thread#0:T:error: Object reference not set to an instance of an object.
+Thread#0:TestItem#6:Scheduler: reschedule tests for testitem #6
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+Thread#0:Scheduler: considering testitem #6 for thread 0
+Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #6 for thread 0
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #6/0 is finished on thread #0 as Failed within 29.6450144 seconds
+Thread#0: Test #6/1 is started on thread #0
+Thread#0:B:Given a valid road ID 'A2' is specified
+Thread#0:T:done: RoadStatusTestSteps.GivenAValidRoadIDIsSpecified("A2") (0.0s)
+Thread#0:B:When the client is run
+Thread#0:T:done: RoadStatusTestSteps.WhenTheClientIsRun() (21.5s)
+Thread#0:B:Then the road 'statusSeverity' should be displayed as 'Road Status Description'
+Thread#0:T:error: Object reference not set to an instance of an object.
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+Thread#0:Scheduler: considering testitem #6 for thread 0
+Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #6 for thread 0
+Thread#0:Scheduler: Test #6 is sche

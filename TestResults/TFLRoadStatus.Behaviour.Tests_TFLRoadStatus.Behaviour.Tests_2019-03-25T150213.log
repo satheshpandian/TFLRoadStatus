@@ -1,0 +1,166 @@
+﻿2019-03-25T15:02:13.7202895+00:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-03-25T15:02:13.7272851+00:00;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2019-03-25T15:02:13.7272851+00:00;VSTestExecutionThread;Info;TestAdapter Location: D:\Applications\TFLRoadStatus\packages\SpecRun.Runner.1.8.5\tools\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-03-25T15:02:13.9191643+00:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-03-25T15:02:13.9191643+00:00;VSTestExecutionThread;Info;SpecRun: running tests in D:\Applications\TFLRoadStatus\TFLRoadStatus.Behaviour.Tests\bin\Debug\TFLRoadStatus.Behaviour.Tests.dll
+2019-03-25T15:02:13.9191643+00:00;VSTestExecutionThread;Info;Profile: TFLRoadStatus.Behaviour.Tests
+2019-03-25T15:02:28.0233298+00:00;Thread#16;Info;starting test run
+2019-03-25T15:02:28.0323221+00:00;Thread#16;Info;Discovering target: Default
+2019-03-25T15:02:28.0323221+00:00;Thread#16;Info;Discovering tests from assembly: D:\Applications\TFLRoadStatus\TFLRoadStatus.Behaviour.Tests\bin\Debug\TFLRoadStatus.Behaviour.Tests.dll
+Appdomain Disposed
+Test Suite Dump
+#0: TFLRoadStatus.Behaviour.Tests/TFLRoadStatus.Behaviour.Tests - 
+#1: Default - 
+#2: TFLRoadStatus.Behaviour.Tests - 
+#3: RoadStatusTest - 
+#4: Display Name should be displayed - TestAssembly:TFLRoadStatus.Behaviour.Tests/Feature:RoadStatusTest/Scenario:Display+Name+should+be+displayed
+#5: Display Status Severity - TestAssembly:TFLRoadStatus.Behaviour.Tests/Feature:RoadStatusTest/Scenario:Display+Status+Severity
+#6: Display Status Severity Description - TestAssembly:TFLRoadStatus.Behaviour.Tests/Feature:RoadStatusTest/Scenario:Display+Status+Severity+Description
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for TFLRoadStatus.Behaviour.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given a valid road ID 'A2' is specified
+Thread#0:T:done: RoadStatusTestSteps.GivenAValidRoadIDIsSpecified("A2") (0.4s)
+Thread#0:B:When the client is run
+Thread#0:T:done: RoadStatusTestSteps.WhenTheClientIsRun() (0.4s)
+Thread#0:B:Then the road 'displayName' should be displayed
+Thread#0:T:done: RoadStatusTestSteps.ThenTheRoadShouldBeDisplayed("displayName") (0.1s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #5 from normal test queue 
+Thread#0:Scheduler: considering testitem #5 for thread 0
+Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #5 for thread 0
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 1.7339322 seconds
+Thread#0: Test #5/0 is started on thread #0
+Thread#0:B:Given a valid road ID 'A2' is specified
+Thread#0:T:done: RoadStatusTestSteps.GivenAValidRoadIDIsSpecified("A2") (0.0s)
+Thread#0:B:When the client is run
+Thread#0:T:done: RoadStatusTestSteps.WhenTheClientIsRun() (0.0s)
+Thread#0:B:Then the road 'statusSeverity' should be displayed as 'Road status'
+Thread#0:T:error: Object reference not set to an instance of an object.
+Thread#0:TestItem#5:Scheduler: reschedule tests for testitem #5
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+Thread#0:Scheduler: considering testitem #5 for thread 0
+Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #5 for thread 0
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #5/0 is finished on thread #0 as Failed within 0.061961 seconds
+Thread#0: Test #5/1 is started on thread #0
+Thread#0:B:Given a valid road ID 'A2' is specified
+Thread#0:T:done: RoadStatusTestSteps.GivenAValidRoadIDIsSpecified("A2") (0.0s)
+Thread#0:B:When the client is run
+Thread#0:T:done: RoadStatusTestSteps.WhenTheClientIsRun() (0.0s)
+Thread#0:B:Then the road 'statusSeverity' should be displayed as 'Road status'
+Thread#0:T:error: Object reference not set to an instance of an object.
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+Thread#0:Scheduler: considering testitem #5 for thread 0
+Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #5 for thread 0
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #5/1 is finished on thread #0 as Failed within 0.0419741 seconds
+Thread#0: Test #5/2 is started on thread #0
+Thread#0:B:Given a valid road ID 'A2' is specified
+Thread#0:T:done: RoadStatusTestSteps.GivenAValidRoadIDIsSpecified("A2") (0.0s)
+Thread#0:B:When the client is run
+Thread#0:T:done: RoadStatusTestSteps.WhenTheClientIsRun() (0.0s)
+Thread#0:B:Then the road 'statusSeverity' should be displayed as 'Road status'
+Thread#0:T:error: Object reference not set to an instance of an object.
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #6 from normal test queue 
+Thread#0:Scheduler: considering testitem #6 for thread 0
+Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #6 for thread 0
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #5/2 is finished on thread #0 as Failed within 0.0379749 seconds
+Thread#0: Test #6/0 is started on thread #0
+Thread#0:B:Given a valid road ID 'A2' is specified
+Thread#0:T:done: RoadStatusTestSteps.GivenAValidRoadIDIsSpecified("A2") (0.0s)
+Thread#0:B:When the client is run
+Thread#0:T:done: RoadStatusTestSteps.WhenTheClientIsRun() (0.0s)
+Thread#0:B:Then the road 'statusSeverity' should be displayed as 'Road Status Description'
+Thread#0:T:error: Object reference not set to an instance of an object.
+Thread#0:TestItem#6:Scheduler: reschedule tests for testitem #6
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+Thread#0:Scheduler: considering testitem #6 for thread 0
+Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #6 for thread 0
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #6/0 is finished on thread #0 as Failed within 0.0409739 seconds
+Thread#0: Test #6/1 is started on thread #0
+Thread#0:B:Given a valid road ID 'A2' is specified
+Thread#0:T:done: RoadStatusTestSteps.GivenAValidRoadIDIsSpecified("A2") (0.0s)
+Thread#0:B:When the client is run
+Thread#0:T:done: RoadStatusTestSteps.WhenTheClientIsRun() (0.0s)
+Thread#0:B:Then the road 'statusSeverity' should be displayed as 'Road Status Description'
+Thread#0:T:error: Object reference not set to an instance of an object.
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+Thread#0:Scheduler: considering testitem #6 for thread 0
+Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #6 for thread 0
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #6/1 is finished on thread #0 as Failed within 0.0469698 seconds
+Thread#0: Test #6/2 is started on thread #0
+Thread#0:B:Given a valid road ID 'A2' is specified
+Thread#0:T:done: RoadStatusTestSteps.GivenAValidRoadIDIsSpecified("A2") (0.0s)
+Thread#0:B:When the client is run
+Thread#0:T:done: RoadStatusTestSteps.WhenTheClientIsRun() (0.0s)
+Thread#0:B:Then the road 'statusSeverity' should be displayed as 'Road Status Description'
+Thread#0:T:error: Object reference not set to an instance of an object.
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #6/2 is finished on thread #0 as Failed within 0.0439729 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2019-03-25T15:02:30.3778767+00:00;Thread#16;Info;test run finished
+2019-03-25T15:02:30.3788765+00:00;Thread#16;Info;publishing test results
+2019-03-25T15:02:30.3878710+00:00;Thread#16;Info;test results published
+2019-03-25T15:02:30.3878710+00:00;Thread#16;Info;generating reports
+2019-03-25T15:02:30.3988638+00:00;Thread#16;Info;creating 1 report(s)
+2019-03-25T15:02:30.3988638+00:00;Thread#16;Info;generate Report ReportTemplate.cshtml
+2019-03-25T15:02:35.9668973+00:00;Thread#16;Info;reports generated
+Total: 3 (test executions: 7)
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 2
+2019-03-25T15:02:35.9808879+00:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-03-25T15:02:35.9808879+00:00;VSTestExecutionThread;Info;adding Test Execution Report 'D:\Applications\TFLRoadStatus\TestResults\TFLRoadStatus.Behaviour.Tests_TFLRoadStatus.Behaviour.Tests_2019-03-25T150213.html'
+2019-03-25T15:02:36.0168665+00:00;VSTestExecutionThread;Info;Log file: file:///D:\Applications\TFLRoadStatus\TestResults\TFLRoadStatus.Behaviour.Tests_TFLRoadStatus.Behaviour.Tests_2019-03-25T150213.log
