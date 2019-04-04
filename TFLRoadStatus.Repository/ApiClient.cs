@@ -20,7 +20,7 @@ namespace TFLRoadStatus.Repository
         {
             var content = string.Empty;
 
-            using (_httpClient)
+            if (_httpClient !=null)
             {
                 var requestUrl = CreateUrl(_config, roadID);
 
