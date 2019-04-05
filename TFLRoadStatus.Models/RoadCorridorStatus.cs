@@ -2,12 +2,12 @@
 {
     public class RoadCorridorStatus
     {
-        public string id { get; set; }
-        public string displayName { get; set; }
-        public string statusSeverity { get; set; }
-        public string statusSeverityDescription { get; set; }
-        public string bounds { get; set; }
-        public string envelope { get; set; }
-        public string url { get; set; }
+        public string Id { get; set; }
+        public string DisplayName { get; set; }
+        public string StatusSeverity { get; set; }
+        public string StatusSeverityDescription { get; set; }
+        public string Bounds { get; set; }
+        public string Envelope { get; set; }
+        public string Url { get; set; }
     }
 }

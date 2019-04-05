@@ -2,11 +2,11 @@
 {
     public class NotFoundError
     {
-        public string timestampUtc { get; set; }
-        public string exceptionType { get; set; }
-        public string httpStatusCode { get; set; }
-        public string httpStatus { get; set; }
-        public string relativeUri { get; set; }
-        public string message { get; set; }
+        public string TimestampUtc { get; set; }
+        public string ExceptionType { get; set; }
+        public string HttpStatusCode { get; set; }
+        public string HttpStatus { get; set; }
+        public string RelativeUri { get; set; }
+        public string Message { get; set; }
     }
 }
